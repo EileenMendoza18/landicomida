@@ -1,0 +1,324 @@
+*{
+    font-family: sans-serif;
+    width: 0;
+    height: 0;    
+    
+}
+.cajamadre {
+    height: 95vh;
+    width: 208vh;
+    margin: 0 auto;
+    text-align: center;
+}
+.barraarriba{
+    width: 208vh;
+    height: 12vh;
+}
+.derecha{
+    display: inline-block;
+    margin-left: 20vh;
+    width: 50vh;
+    height: 12vh;
+}
+
+img {
+    width: 5vh;
+    height: 5vh;
+    margin-top: 2vh;
+}
+.danvo{
+    font-size: 2.5vh;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.733);
+    margin-top: 4.5vh;
+    float: right;
+    margin-left: 1vh;
+    width: 28vh;
+    
+    height: 4vh;
+}
+
+.izquierda{
+    margin-right: 26vh;
+    width: 90vh;
+    height: 12vh;
+    float: right;
+
+}
+
+
+.boton{
+    display: inline-block;
+    color: darkgray;
+    margin-top: 3vh;
+    margin-left: 10vh;
+    width: 8vh;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 1.7vh;
+    color: darkgrey;
+    
+}
+#cuatro{
+    width: 15vh;
+}
+.sign{
+    border-radius: 1.5vh;
+    background-color:rgb(107, 164, 250);
+     
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-right: 2.5vh;
+    padding-left: 2.5vh;
+    text-align: center;
+    color: white;
+}
+.barrabajo{
+    display: inline-block;
+    width: 135vh;
+    height: 80vh;
+}
+h2{
+    font-size: 4vh;
+    width: 40vh;
+    color: black;
+    text-align: left;
+    margin-top: 32vh;
+    margin-bottom: 4vh;
+}
+.dos{
+    margin-top:-0vh ;
+}
+.textoabajo{
+    width: 67vh;
+    height: 1.5vh;
+    text-align: left;
+    margin-top: 6vh;
+    font-size: 2vh;
+    color: darkgray;
+}
+.textoabaj{
+    font-size: 2vh;
+    color: darkgray;
+    width: 52vh;
+    height: 1.5vh;
+}
+
+#botabajo{
+    float: left;
+    background-color:rgb(107, 164, 250);
+    margin-top: 4vh ;
+    color: white;
+    font-size: 1.5vh;
+    height: 3.5vh;
+    padding-top: 1.5vh;
+    width: 13vh;
+    border-radius:10px;
+}
+
+#persona{
+    
+    position: absolute;
+    height: 65vh;
+    width: 80vh;
+    top: 27vh;
+    left: 110vh;
+
+}
+@media (max-width:1019px){
+    
+.cajamadre {
+    height: 145vh;
+    width: 203vh;
+}
+.barraarriba{
+    width: 203vh;
+    height: 22vh;
+}
+.derecha{
+    display: inline-block;
+    margin-left: 0vh;
+    width: 70vh;
+    height: 22vh;
+    ;
+}
+
+img {
+    width: 12vh;
+    height: 12vh;
+    margin-top: 5vh;
+}
+.danvo{
+    font-size: 4vh;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.733);
+    margin-top: 8.5vh;
+    float: right;
+    margin-left: 0vh;
+    width: 45vh;
+}
+
+.izquierda{
+    margin-right: 20vh;
+    width: 100vh;
+    height: 22vh;
+
+}
+
+
+.boton{
+    display: inline-block;
+    color: darkgray;
+    margin-top: 9vh;
+    width: 14vh;    
+}
+a{
+    text-decoration: none;
+    font-size: 3vh;
+    color: darkgrey;
+    
+}
+#cuatro{
+    width: 16vh;
+}
+.barrabajo{
+    width: 175vh;
+    height: 120vh;
+}
+h2{
+    font-size: 8vh;
+    width: 80vh;
+    margin-bottom: 10vh;
+}
+
+.textoabajo{
+    width: 120vh;
+    height: 5vh;
+    text-align: left;
+    margin-top: 17vh;
+    font-size: 3vh;
+    color: darkgray;
+}
+.textoabaj{
+    font-size: 3vh;
+    color: darkgray;
+    width: 120vh;
+    height: 5vh;
+    margin-left: -20vh;
+}
+
+#botabajo{
+    margin-top: 5vh ;
+    font-size: 3vh;
+    height: 7vh;
+    padding-top: 3vh;
+    width: 20vh;
+    margin-left: 30vh;
+}
+
+#persona{
+    width: 70vh;
+    top: 50vh;
+    left: 120vh;
+
+}
+}
+@media (max-width:991px){
+
+}
+@media (max-width:767px){
+        .cajamadre {
+    height: 330vh;
+    width:172vh;
+}
+.barraarriba{
+    width: 172vh;
+    height: 20vh;
+}
+
+img {
+    margin-top: 3vh;
+}
+.danvo{
+    font-size: 5vh;
+    margin-top: 4.5vh;
+    width: 48vh;
+    height: 12vh;
+} 
+
+.izquierda{
+    margin-right:8vh;
+    width: 90vh;
+    height: 20vh;
+
+}
+
+
+.boton{
+    margin-top: 8vh;
+    margin-left: 10vh;
+    width: 10vh; 
+    
+}
+a{
+    font-size: 3vh;
+    
+}
+#cuatro{
+    width: 18vh;
+}
+.sign{
+    border-radius: 2vh;
+}
+.barrabajo{
+    width: 172vh;
+    height: 310vh;
+}
+h2{
+    font-size: 15vh;
+    width: 145vh;
+    height: 20vh;
+    text-align: center;
+    margin-top: 10vh;
+    margin-left:15vh;
+}
+.dos{
+    margin-bottom: 190vh;
+}
+.textoabajo{
+    width: 135vh;
+    height: 10vh;
+    margin-top: 6vh;
+    font-size: 6vh;
+    text-align: center;
+    margin-left: 15vh;
+}
+.textoabaj{
+    font-size: 6vh;
+    width: 135vh;
+    height: 5vh;
+    margin-left: 15vh;
+}
+
+#botabajo{
+    margin-top:15vh ;
+    font-size: 5vh;
+    height: 10vh;
+    padding-top: 3vh;
+    width: 40vh;
+    margin-left: 70vh;
+}
+
+#persona{
+    
+    position: none;
+    height: 160vh;
+    width: 120vh;
+    top: 90vh;
+    left: 33vh;
+
+}
+
+}

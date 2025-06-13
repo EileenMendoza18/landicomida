@@ -1,0 +1,577 @@
+*{  
+    box-sizing: content-box;
+    height: 0;
+    width: 0;
+}
+body{
+    background-color:#e7a558 ;
+  
+    
+}
+.principal{
+    width: 198vh;
+    height: 95vh;
+    margin:1%;
+    border: 1.5vh solid rgba(124, 62, 12, 0.527) ;
+    background-color: #FFB200;
+}
+
+.uno{
+    margin-bottom: 39vh;
+    width: 198vh;
+    height: 10vh;
+    
+}
+.imgarriba{
+    width: 198vh;
+    height: 44vh;
+    z-index: -1;
+}
+
+
+
+/* Estilos para todos los botones dentro de .logos */
+.logos button {
+    border: none; /* Sin borde */
+    cursor: pointer; /* Indica que es un elemento clickeable */
+    padding: 0; /* Elimina el padding predeterminado del botón */
+    background: transparent;
+    display: inline-block; /* Permite que los botones estén en la misma línea */
+    
+    
+}
+
+
+.logos{
+    width: 50vh;
+    margin-top: -42.5vh;
+    margin-left: 119vh;
+}
+
+
+.imginicio{
+    width: 11vh;
+    height: 4vh;
+}
+.imgpro{
+    width: 11vh;
+    height: 4vh;
+    margin-left: 17vh;
+}
+.imgperfil{
+    width: 11vh;
+    height: 4vh;
+    margin-left: 39vh;
+}
+.imgnoso{
+    width: 11vh;
+    height: 4vh;
+    margin-left: 59vh;
+}
+.imglogo{
+
+    width: 5vh;
+    height: 5vh;
+    margin-top: -4vh;
+    margin-left: 71vh;
+
+}
+.dos{
+    width: 198vh;
+    height: 46vh;
+}
+.caja{
+    width: 110vh;
+    height: 46vh;
+    position: absolute;
+}
+.cajauno{
+    width: 110vh;
+    height: 38vh;
+}
+.imgdebajo{
+    width: 110vh;
+    height: 38vh;
+}
+h1{
+    font-size: 4vh;
+    width:110vh;
+    height:3vh;
+    text-align: center;
+}
+.eleden{
+    font-size:2.5vh;
+    width: 110vh;
+    height: 7vh;
+    margin-left: 1vh;
+}
+.boton{
+    width: 8.5vh;
+    height: 2vh;
+    margin-left: 52vh;
+    border-radius: 1vh ;
+    border: none;
+    background-color: purple;
+        cursor: pointer; /* Indica que es un elemento clickeable */
+
+}
+.boton p{
+    font-size: 1.5vh;
+    margin-top: -0.5vh;
+    color: aliceblue;
+
+}
+.redes{
+    height: 8vh;
+    width: 110vh;
+    margin-left: 1vh;
+
+}
+.imgtwiter{
+    position: absolute;
+    width:7vh;
+    height: 7vh;
+    cursor: pointer; /* Indica que es un elemento clickeable */
+
+}
+.imgface{
+    position: absolute;
+    margin-left: 12vh;
+    width:7vh;
+    height: 7vh;
+            cursor: pointer; /* Indica que es un elemento clickeable */
+
+}.imgyou{
+    position: absolute;
+    margin-left: 24vh;
+    width:7vh;
+    height: 7vh;
+            cursor: pointer; /* Indica que es un elemento clickeable */
+
+}.imgins{
+    position: absolute;
+    margin-left: 36vh;
+    width:7vh;
+    height: 7vh;
+            cursor: pointer; /* Indica que es un elemento clickeable */
+
+}
+.redes p{
+    font-size: 2vh;
+    position: absolute;
+    margin-left: 48vh;
+    width:47vh;
+    height: 7vh;
+}
+
+.imgpos{
+    width: 72vh;
+    height: 46vh;
+    margin-left: 126vh;
+}
+
+@media (max-width: 1019px){
+.principal{
+    margin-inline: 10vh;
+    width:81vh;
+    height: 94vh;
+}
+.imgarriba{
+    width: 81vh;
+    height: 30vh;
+}
+.uno{
+    width: 81vh;
+    height: 30vh;
+    margin-bottom: 0vh;
+}
+
+
+.logos{
+    width: 2vh;
+    margin-top: -30vh;
+    margin-left: 2vh;
+
+}
+
+.imginicio{
+    width: 8vh;
+    height: 3.5vh;
+
+}
+.imgpro{
+    width: 8vh;
+    height: 3.5vh;
+    margin-left:18vh;
+}
+
+.imgperfil{
+    width: 8vh;
+    height: 3.5vh;
+    margin-left: 40vh;
+
+}
+.imgnoso{
+    width: 8vh;
+    height: 3.5vh;
+    margin-left: 60vh;
+
+}
+.imglogo{
+
+    width: 4vh;
+    height: 3.5vh;
+    margin-left: 73vh;
+
+}
+.dos{
+    width: 81vh;
+    height: 64vh;
+}
+.caja{
+    width: 40vh;
+    height:64vh;
+}
+.cajauno{
+    width: 20vh;
+    height:32vh;
+    margin-bottom: 21vh;
+}
+.imgdebajo{
+    width: 79vh;
+    margin-left: 1vh;
+    height: 45vh;
+}
+h1{
+    font-size: 4vh;
+    width: 79vh;
+    height:10vh;
+}
+.eleden{
+    font-size: 1.5vh;
+    width: 78vh;
+    height: 5vh;
+    text-align: center;
+}
+.boton{
+    width: 10vh;
+    height: 5vh;
+    margin-left: 34vh;
+    border-radius: 2vh ;
+
+}
+.boton p{
+    font-size: 1.8vh;
+    margin-top: -0.5vh;
+    color: aliceblue;
+
+}
+.redes{
+    width: 40vh;
+}
+.imgtwiter{
+    width: 5vh;
+    height: 5vh;
+}
+.imgface{
+    position: absolute;
+    margin-left: 8vh;
+    width: 5vh;
+    height: 5vh;
+}.imgyou{
+        position: absolute;
+    margin-left: 16vh;
+    width: 5vh;
+    height: 5vh;
+}.imgins{
+        position: relative;
+    margin-left: 24vh;
+    width: 5vh;
+    height: 5vh;
+}
+.redes p{
+    position: relative;
+    font-size: 2vh;
+    margin-left: 0;
+    width: 38vh;
+}
+
+.imgpos{
+    width: 35vh;
+    height: 28vh;
+    margin-left:46vh;
+    margin-top:36vh;
+}
+
+
+}
+@media(max-width:991px){
+.principal{
+    margin-inline: 0vh;
+    width: 76vh;
+    height: 93vh;
+}
+.imgarriba{
+    width: 76vh;
+}
+.uno{
+    width: 76vh;
+    height: 30vh;
+}
+.logos{
+    margin-top: -30vh;
+    margin-left: 7vh;
+}
+
+.imgpro{
+    margin-left: 14vh;
+}
+
+.imgperfil{
+    margin-left: 32vh;
+}
+.imgnoso{
+    margin-left: 48vh;
+}
+.imglogo{
+    margin-left: 60vh;
+}
+.dos{
+    width: 76vh;
+    height: 63vh;
+}
+.caja{
+    width: 36vh;
+    height: 63vh;
+}
+.cajauno{
+    width: 76vh;
+    height: 45vh;
+    margin-bottom: 8vh;
+}
+.imgdebajo{
+    width:74vh;
+    height: 45vh;
+}
+h1{
+    font-size: 4vh;
+    width: 76vh;
+}
+.eleden{
+    margin-left: 3vh;
+    font-size: 1.5vh;
+    width: 70vh;
+    height: 5vh;
+}
+.boton{
+    width: 11vh;
+    height: 5vh;
+    margin-left: 34vh;
+    
+
+}
+.boton p{
+    font-size: 2vh;
+}
+
+.redes p{
+    font-size: 2vh;
+}
+
+.imgpos{
+    width: 36vh;
+    height: 21vh;
+    margin-left: 39vh;
+    margin-top: 42vh;
+}
+}
+@media(max-width:767px){
+    .principal{
+    width: 55vh;
+}
+.imgarriba{
+    width: 55vh;
+}
+.uno{
+    width: 55vh;
+}
+
+
+.imgpro{
+    margin-left: 7vh;
+}
+
+.imgperfil{
+    margin-left: 18vh;
+}
+.imgnoso{
+    margin-left: 27vh;
+}
+.imglogo{
+    margin-left: 35vh;
+}
+.dos{
+    width: 55vh;
+}
+h1{
+    font-size: 3vh;
+    width: 55vh;
+}
+.eleden{
+    width: 48vh;
+    height: 7vh;
+}
+.imgdebajo{
+    width: 53vh;
+}
+.redes{
+    width: 28vh;
+}
+.imgtwiter{
+    width: 3vh;
+    height: 3vh;
+}
+.imgface{
+    position: absolute;
+    margin-left: 6vh;
+    width: 3vh;
+    height: 3vh;
+}.imgyou{
+        position: absolute;
+    margin-left: 12vh;
+    width: 3vh;
+    height: 3vh;
+}.imgins{
+        position: relative;
+    margin-left: 18vh;
+    width: 3vh;
+    height: 3vh;
+}
+.imgpos{
+    width:30vh;
+    height: 20vh;
+    margin-left: 25vh;
+    margin-top: 43vh;
+}
+.boton{
+    width: 8vh;
+    height: 4vh;
+    margin-left: 22vh;
+    
+}
+.boton p{
+    font-size: 1.5vh;
+}
+
+.redes p{
+    font-size: 1.5vh;
+    width: 18vh;
+}
+}
+@media (max-width:575px){
+    .principal{
+    width: 73vh;
+    height: 140vh;
+}
+.imgarriba{
+    width: 73vh;
+    height: 45vh;
+}
+.uno{
+    width: 73vh;
+    height: 50vh;
+}
+.dos{
+    width: 75vh;
+}
+.logos{
+    width:3vh;
+    margin-top: -44.5vh;
+}
+.imgpro{
+    margin-left: 13vh;
+    width: 9vh;
+}
+
+.imgperfil{
+    margin-left: 30vh;
+    width: 9vh;
+}
+.imgnoso{
+    margin-left: 44vh;
+    width: 9vh;
+}
+.imglogo{
+    margin-left: 53vh;
+    margin-top: 0.5vh;
+}
+.dos{
+    width: 73vh;
+    height: 90vh;
+}
+.caja{
+    
+    width: 38vh;
+    height: 90vh;
+}
+.cajauno{
+    width: 73vh;
+    height: 45vh;
+    margin-bottom: 36vh;
+}
+.imgdebajo{
+    width: 71vh;
+}
+h1{
+    font-size: 3.5vh;
+    width: 71vh;
+    
+}
+.eleden{
+    width: 65vh;
+    height: 8vh;
+}
+
+.redes{
+    width: 28vh;
+}
+.imgtwiter{
+    width: 3vh;
+    height: 3vh;
+}
+.imgface{
+    position: absolute;
+    margin-left: 6vh;
+    width: 3vh;
+    height: 3vh;
+}.imgyou{
+        position: absolute;
+    margin-left: 12vh;
+    width: 3vh;
+    height: 3vh;
+}.imgins{
+        position: relative;
+    margin-left: 18vh;
+    width: 3vh;
+    height: 3vh;
+}
+
+.boton{
+    width: 8vh;
+    height: 3vh;
+    margin-left: 31.5vh;
+}
+.boton p{
+    font-size: 1.5vh;
+}
+.redes p{
+    font-size: 1.5vh;
+    width: 34vh;
+}
+.imgpos{
+    width:40vh;
+    height: 45vh;
+    margin-left: 33vh;
+    margin-top: 45vh;
+}
+}
