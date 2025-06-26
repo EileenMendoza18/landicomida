@@ -3,7 +3,10 @@
     height: 0;                  /* Resetea la altura de todos los elementos a 0 */
     width: 0;                   /* Resetea el ancho de todos los elementos a 0 */
 }
-
+:root{
+    --LargoLogos:2vh;
+    --FondoImagen: drop-shadow(2px 4px 6px rgb(69, 7, 98));
+}
 body{
     background-color:#e7a558;   /* Color de fondo naranja/dorado para toda la página */
     
@@ -425,17 +428,18 @@ h1{
 @media (max-width:480px){
     .principal{
         width: 91vw;            /* Ancho para móviles */
-        height: 140vh;          /* Altura aumentada para layout vertical */
+        height: 99.5vh;          /* Altura aumentada para layout vertical */
     }
     
     .imgarriba{
-        width: 91vw;            /* Ancho de imagen para móviles */
-        height: 45vh;           /* Altura de imagen aumentada */
+                   /* Ancho de imagen para móviles */
+                /* Altura de imagen aumentada */
+                display: none;
     }
     
     .uno{
         width: 91vw;            /* Ancho de sección superior */
-        height: 45vh;           /* Altura de sección superior aumentada */
+        height: 3vh;           /* Altura de sección superior aumentada */
     
     }
     
@@ -447,28 +451,40 @@ h1{
     
     .logos{
         width:6vw;              /* Ancho mínimo del contenedor de logos */
-        margin-top: -44.5vh;    /* Posición vertical ajustada */
+        margin-top: 1.5vh;    /* Posición vertical ajustada */
         margin-left: 0.5rem;
     }
-    
+    .imginicio{
+        height: var(--LargoLogos);
+        filter: var(--FondoImagen);
+    }
     .imgpro{
         margin-left: 4rem;      /* Nueva separación */
-        width: 4rem;             /* Ancho aumentado para táctil */
+        width: 4rem;
+        height: var(--LargoLogos);             /* Ancho aumentado para táctil */
+        filter: var(--FondoImagen);
+    
     }
 
     .imgperfil{
         margin-left: 9rem;      /* Nueva separación */
-        width: 4rem;             /* Ancho aumentado para táctil */
+        width: 4rem;   
+        height: var(--LargoLogos);          /* Ancho aumentado para táctil */
+        filter: var(--FondoImagen);
     }
     
     .imgnoso{
         margin-left: 13.5rem;      /* Nueva separación */
-        width: 4rem;             /* Ancho aumentado para táctil */
+        width: 4rem; 
+        height: var(--LargoLogos);            /* Ancho aumentado para táctil */
+        filter: var(--FondoImagen);
     }
     
     .imglogo{
         margin-left: 18rem;      /* Nueva posición */
         margin-top: 0.5vh;      /* Ajuste vertical */
+        height: var(--LargoLogos);
+        filter: var(--FondoImagen);
     }
     
    
