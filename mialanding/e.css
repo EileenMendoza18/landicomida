@@ -6,24 +6,25 @@
 
 body{
     background-color:#e7a558;   /* Color de fondo naranja/dorado para toda la página */
+    
 }
 
 .principal{
-    width: 198vh;               /* Ancho del contenedor principal*/
+    width: 96.5vw;               /* Ancho del contenedor principal*/
     height: 95vh;               /* Altura del contenedor principal */
     margin:1%;                  /* Margen del 1% en todos los lados */
-    border: 1.5vh solid rgba(124, 62, 12, 0.527); /* Borde sólido marrón con transparencia */
+    border: 0.8rem solid rgba(124, 62, 12, 0.527); /* Borde sólido marrón con transparencia */
     background-color: #FFB200;  /* Fondo amarillo/dorado del contenedor */
 }
 
 .uno{
     margin-bottom: 39vh;        /* Espacio inferior para separar del siguiente elemento */
-    width: 198vh;               /* Ancho igual al contenedor principal */
-    height: 10vh;               /* Altura de la sección superior */
+    width: 96.5vw;               /* Ancho igual al contenedor principal */
+    height: 6vh;               /* Altura de la sección superior */
 }
 
 .imgarriba{
-    width: 198vh;               /* Ancho completo de la imagen superior */
+    width: 96.5vw;               /* Ancho completo de la imagen superior */
     height: 44vh;               /* Altura de la imagen superior */
     z-index: -1;                /* Coloca la imagen detrás de otros elementos */
 }
@@ -38,81 +39,81 @@ body{
 }
 
 .logos{
-    width: 50vh;                /* Ancho del contenedor de logos */
+    width: 20vw;                /* Ancho del contenedor de logos */
     margin-top: -42.5vh;        /* Margen negativo para superponer sobre la imagen */
-    margin-left: 119vh;         /* Posicionamiento desde la izquierda */
+    margin-left: 45vw;         /* Posicionamiento desde la izquierda */
 }
 
 .imginicio{
-    width: 11vh;                /* Ancho del botón "Inicio" */
+    width: 5rem;                /* Ancho del botón "Inicio" */
     height: 4vh;                /* Altura del botón "Inicio" */
 }
 
 .imgpro{
-    width: 11vh;                /* Ancho del botón "Productos" */
+    width: 5rem;                /* Ancho del botón "Productos" */
     height: 4vh;                /* Altura del botón "Productos" */
-    margin-left: 17vh;          /* Separación desde el botón anterior */
+    margin-left: 8rem;          /* Separación desde el botón anterior */
 }
 
 .imgperfil{
-    width: 11vh;                /* Ancho del botón "Perfil" */
+    width: 5rem;                /* Ancho del botón "Perfil" */
     height: 4vh;                /* Altura del botón "Perfil" */
-    margin-left: 39vh;          /* Separación desde el elemento base */
+    margin-left: 18rem;          /* Separación desde el elemento base */
 }
 
 .imgnoso{
-    width: 11vh;                /* Ancho del botón "Nosotros" */
+    width: 5rem;                /* Ancho del botón "Nosotros" */
     height: 4vh;                /* Altura del botón "Nosotros" */
-    margin-left: 59vh;          /* Separación desde el elemento base */
+    margin-left: 27rem;          /* Separación desde el elemento base */
 }
 
 .imglogo{
-    width: 5vh;                 /* Ancho del logo */
+    width: 2.5rem;                 /* Ancho del logo */
     height: 5vh;                /* Altura del logo */
     margin-top: -4vh;           /* Margen negativo para ajustar posición vertical */
-    margin-left: 71vh;          /* Posicionamiento desde la izquierda */
+    margin-left: 34rem;          /* Posicionamiento desde la izquierda */
 }
 
 .dos{
-    width: 198vh;               /* Ancho completo de la sección de contenido */
+    width: 94vw;               /* Ancho completo de la sección de contenido */
     height: 46vh;               /* Altura de la sección de contenido */
 }
 
 .caja{
-    width: 110vh;               /* Ancho del contenedor de información */
+    width: 50vw;               /* Ancho del contenedor de información */
     height: 46vh;               /* Altura del contenedor de información */
     position: absolute;         /* Posicionamiento absoluto para control preciso */
 }
 
 .cajauno{
-    width: 110vh;               /* Ancho del sub-contenedor */
-    height: 38vh;               /* Altura del sub-contenedor */
+    width: 50vw;               /* Ancho del sub-contenedor */
+    height: 42vh;               /* Altura del sub-contenedor */
 }
 
 .imgdebajo{
-    width: 110vh;               /* Ancho de la imagen decorativa inferior */
-    height: 38vh;               /* Altura de la imagen decorativa inferior */
+    width: 50vw;               /* Ancho de la imagen decorativa inferior */
+    height: 41vh;               /* Altura de la imagen decorativa inferior */
 }
 
 h1{
     font-size: 4vh;             /* Tamaño de fuente del título principal */
-    width:110vh;                /* Ancho del título */
-    height:3vh;                 /* Altura del título */
+    width:50vw;                /* Ancho del título */
+    height:8vh;                 /* Altura del título */
     text-align: center;         /* Centrar el texto del título */
 }
 
 .eleden{
     font-size:2.5vh;            /* Tamaño de fuente del párrafo descriptivo */
-    width: 110vh;               /* Ancho del párrafo */
-    height: 7vh;                /* Altura del párrafo */
-    margin-left: 1vh;           /* Pequeño margen izquierdo */
+    width: 50vw;               /* Ancho del párrafo */
+    height: 10vh;                /* Altura del párrafo */
+    margin-left: 0.5rem;           /* Pequeño margen izquierdo */
 }
 
 .boton{
-    width: 8.5vh;               /* Ancho del botón principal */
+    width: 4rem;               /* Ancho del botón principal */
     height: 2vh;                /* Altura del botón principal */
-    margin-left: 52vh;          /* Centrado aproximado del botón */
-    border-radius: 1vh;         /* Esquinas redondeadas del botón */
+    margin-left: 20vw;          /* Centrado aproximado del botón */
+    border-radius: 0.5rem;         /* Esquinas redondeadas del botón */
     border: none;               /* Sin borde del botón */
     background-color: purple;   /* Fondo morado del botón */
     cursor: pointer;            /* Cursor de mano al pasar sobre el botón */
@@ -126,37 +127,37 @@ h1{
 
 .redes{
     height: 8vh;                /* Altura de la sección de redes sociales */
-    width: 110vh;               /* Ancho de la sección de redes sociales */
-    margin-left: 1vh;           /* Pequeño margen izquierdo */
+    width: 50vw;               /* Ancho de la sección de redes sociales */
+    margin-left: 0.5rem;           /* Pequeño margen izquierdo */
 }
 
 .imgtwiter{
     position: absolute;         /* Posicionamiento absoluto para control preciso */
-    width:7vh;                  /* Ancho del icono de Twitter */
+    width:3.5rem;                  /* Ancho del icono de Twitter */
     height: 7vh;                /* Altura del icono de Twitter */
     cursor: pointer;            /* Cursor de mano al pasar sobre el icono */
 }
 
 .imgface{
     position: absolute;         /* Posicionamiento absoluto */
-    margin-left: 12vh;          /* Separación desde el icono anterior */
-    width:7vh;                  /* Ancho del icono de Facebook */
+    margin-left: 5.5rem;          /* Separación desde el icono anterior */
+    width:3.5rem;                  /* Ancho del icono de Facebook */
     height: 7vh;                /* Altura del icono de Facebook */
     cursor: pointer;            /* Cursor de mano al pasar sobre el icono */
 }
 
 .imgyou{
     position: absolute;         /* Posicionamiento absoluto */
-    margin-left: 24vh;          /* Separación desde el elemento base */
-    width:7vh;                  /* Ancho del icono de YouTube */
+    margin-left: 11rem;          /* Separación desde el elemento base */
+    width:3.5rem;                  /* Ancho del icono de YouTube */
     height: 7vh;                /* Altura del icono de YouTube */
     cursor: pointer;            /* Cursor de mano al pasar sobre el icono */
 }
 
 .imgins{
     position: absolute;         /* Posicionamiento absoluto */
-    margin-left: 36vh;          /* Separación desde el elemento base */
-    width:7vh;                  /* Ancho del icono de Instagram */
+    margin-left: 16.5rem;          /* Separación desde el elemento base */
+    width:3.5rem;                  /* Ancho del icono de Instagram */
     height: 7vh;                /* Altura del icono de Instagram */
     cursor: pointer;            /* Cursor de mano al pasar sobre el icono */
 }
@@ -164,110 +165,106 @@ h1{
 .redes p{
     font-size: 2vh;             /* Tamaño de fuente del texto de redes */
     position: absolute;         /* Posicionamiento absoluto */
-    margin-left: 48vh;          /* Posicionamiento después de los iconos */
-    width:47vh;                 /* Ancho del texto */
+    margin-left: 22rem;          /* Posicionamiento después de los iconos */
+    width:30vw;                 /* Ancho del texto */
     height: 7vh;                /* Altura del texto */
 }
 
 .imgpos{
-    width: 72vh;                /* Ancho de la imagen de postres */
-    height: 46vh;               /* Altura de la imagen de postres */
-    margin-left: 126vh;         /* Posicionamiento a la derecha */
+    width: 50vw;                /* Ancho de la imagen de postres */
+    height: 50vh;               /* Altura de la imagen de postres */
+    margin-left: 46.5vw;         /* Posicionamiento a la derecha */
+}
+@media (max-width:1400px){
+    .imgpos{
+    width: 50vw;                /* Ancho de la imagen de postres */
+    height: 50vh;               /* Altura de la imagen de postres */
+    margin-left: 46.5vw;         /* Posicionamiento a la derecha */
+
+}
 }
 
-@media (max-width: 1019px){
+@media (max-width: 1200px){
     .principal{
-        margin-inline: 10vh;    /* Margen horizontal para tablets */
-        width:81vh;             /* Ancho reducido para tablets */
+        width:96vw;             /* Ancho reducido para tablets */
         height: 94vh;           /* Altura ajustada para tablets */
     }
     
     .imgarriba{
-        width: 81vh;            /* Ancho de imagen ajustado para tablets */
-        height: 30vh;           /* Altura de imagen reducida para tablets */
+        width: 96vw;            /* Ancho de imagen ajustado para tablets */
+        height: 35vh;           /* Altura de imagen reducida para tablets */
     }
     
     .uno{
-        width: 81vh;            /* Ancho de sección superior para tablets */
-        height: 30vh;           /* Altura de sección superior para tablets */
+        width: 96vw;            /* Ancho de sección superior para tablets */
+        height: 35vh;           /* Altura de sección superior para tablets */
         margin-bottom: 0vh;     /* Elimina margen inferior en tablets */
     }
 
     .logos{
-        width: 2vh;             /* Ancho reducido del contenedor de logos */
-        margin-top: -30vh;      /* Ajuste de posición vertical */
-        margin-left: 2vh;       /* Posicionamiento desde la izquierda */
+        width: 2.5vw;             /* Ancho reducido del contenedor de logos */
+        margin-top: -35vh;      /* Ajuste de posición vertical */
+        margin-left: 1vw;       /* Posicionamiento desde la izquierda */
     }
 
     .imginicio{
-        width: 8vh;             /* Ancho reducido del botón inicio */
+        width: 5.5rem;             /* Ancho reducido del botón inicio */
         height: 3.5vh;          /* Altura reducida del botón inicio */
     }
     
     .imgpro{
-        width: 8vh;             /* Ancho reducido del botón productos */
+        width: 5.5rem;             /* Ancho reducido del botón productos */
         height: 3.5vh;          /* Altura reducida del botón productos */
-        margin-left:18vh;       /* Nueva separación para tablets */
+        margin-left:8rem;       /* Nueva separación para tablets */
     }
 
     .imgperfil{
-        width: 8vh;             /* Ancho reducido del botón perfil */
+        width: 5.5rem;             /* Ancho reducido del botón perfil */
         height: 3.5vh;          /* Altura reducida del botón perfil */
-        margin-left: 40vh;      /* Nueva separación para tablets */
+        margin-left: 18rem;      /* Nueva separación para tablets */
     }
     
     .imgnoso{
-        width: 8vh;             /* Ancho reducido del botón nosotros */
+        width: 5.5rem;             /* Ancho reducido del botón nosotros */
         height: 3.5vh;          /* Altura reducida del botón nosotros */
-        margin-left: 60vh;      /* Nueva separación para tablets */
+        margin-left: 27rem;      /* Nueva separación para tablets */
     }
     
     .imglogo{
-        width: 4vh;             /* Ancho reducido del logo */
+        width: 2rem;             /* Ancho reducido del logo */
         height: 3.5vh;          /* Altura reducida del logo */
-        margin-left: 73vh;      /* Nueva posición del logo */
-    }
-    
-    .dos{
-        width: 81vh;            /* Ancho de sección de contenido para tablets */
-        height: 64vh;           /* Altura aumentada para tablets */
-    }
-    
-    .caja{
-        width: 40vh;            /* Ancho reducido del contenedor de información */
-        height:64vh;            /* Altura del contenedor de información */
+        margin-left: 35rem;      /* Nueva posición del logo */
     }
     
     .cajauno{
-        width: 20vh;            /* Ancho muy reducido del sub-contenedor */
-        height:32vh;            /* Altura del sub-contenedor */
+        height:27vh;            /* Altura del sub-contenedor */
         margin-bottom: 21vh;    /* Margen inferior para separación */
     }
     
     .imgdebajo{
-        width: 79vh;            /* Ancho de imagen decorativa para tablets */
-        margin-left: 1vh;       /* Pequeño margen izquierdo */
-        height: 45vh;           /* Altura de imagen decorativa */
+        width: 92vw;            /* Ancho de imagen decorativa para tablets */
+        margin-left: 3vw;       /* Pequeño margen izquierdo */
+        height: 42vh;           /* Altura de imagen decorativa */
     }
     
     h1{
         font-size: 4vh;         /* Tamaño de fuente del título */
-        width: 79vh;            /* Ancho del título para tablets */
-        height:10vh;            /* Altura del título aumentada */
+        width: 95vw;            /* Ancho del título para tablets */
+        height:7vh;            /* Altura del título aumentada */
     }
     
     .eleden{
-        font-size: 1.5vh;       /* Tamaño de fuente reducido del párrafo */
-        width: 78vh;            /* Ancho del párrafo para tablets */
-        height: 5vh;            /* Altura del párrafo para tablets */
+        font-size: 2vh;       /* Tamaño de fuente reducido del párrafo */
+        width: 90vw;            /* Ancho del párrafo para tablets */
+        height: 8vh;            /* Altura del párrafo para tablets */
         text-align: center;     /* Centrar texto del párrafo */
     }
     
     .boton{
         width: 10vh;            /* Ancho aumentado del botón */
-        height: 5vh;            /* Altura aumentada del botón */
-        margin-left: 34vh;      /* Nueva posición del botón */
-        border-radius: 2vh;     /* Radio de esquinas aumentado */
+        height: 3vh;            /* Altura aumentada del botón */
+        margin-left: 41.5vw;      /* Nueva posición del botón */
+        border-radius: 1rem;     /* Radio de esquinas aumentado */
     }
     
     .boton p{
@@ -276,33 +273,30 @@ h1{
         color: aliceblue;       /* Color del texto del botón */
     }
     
-    .redes{
-        width: 40vh;            /* Ancho de sección de redes para tablets */
-    }
     
     .imgtwiter{
-        width: 5vh;             /* Ancho reducido del icono Twitter */
+        width: 2.5rem;             /* Ancho reducido del icono Twitter */
         height: 5vh;            /* Altura reducida del icono Twitter */
     }
     
     .imgface{
         position: absolute;     /* Mantiene posicionamiento absoluto */
-        margin-left: 8vh;       /* Nueva separación del icono Facebook */
-        width: 5vh;             /* Ancho reducido del icono Facebook */
+        margin-left: 4rem;       /* Nueva separación del icono Facebook */
+        width: 2.5rem;             /* Ancho reducido del icono Facebook */
         height: 5vh;            /* Altura reducida del icono Facebook */
     }
     
     .imgyou{
         position: absolute;     /* Mantiene posicionamiento absoluto */
-        margin-left: 16vh;      /* Nueva separación del icono YouTube */
-        width: 5vh;             /* Ancho reducido del icono YouTube */
+        margin-left: 8rem;      /* Nueva separación del icono YouTube */
+        width: 2.5rem;             /* Ancho reducido del icono YouTube */
         height: 5vh;            /* Altura reducida del icono YouTube */
     }
     
     .imgins{
         position: relative;     /* Cambia a posicionamiento relativo */
-        margin-left: 24vh;      /* Nueva separación del icono Instagram */
-        width: 5vh;             /* Ancho reducido del icono Instagram */
+        margin-left: 12rem;      /* Nueva separación del icono Instagram */
+        width: 2.5rem;             /* Ancho reducido del icono Instagram */
         height: 5vh;            /* Altura reducida del icono Instagram */
     }
     
@@ -310,197 +304,113 @@ h1{
         position: relative;     /* Cambia a posicionamiento relativo */
         font-size: 2vh;         /* Tamaño de fuente del texto de redes */
         margin-left: 0;         /* Elimina margen izquierdo */
-        width: 38vh;            /* Ancho del texto de redes */
+        width:60vw;
     }
 
     .imgpos{
-        width: 35vh;            /* Ancho reducido de imagen de postres */
-        height: 28vh;           /* Altura reducida de imagen de postres */
-        margin-left:46vh;       /* Nueva posición horizontal */
-        margin-top:36vh;        /* Nueva posición vertical */
+        width: 39vw;            /* Ancho reducido de imagen de postres */
+        height: 25vh;           /* Altura reducida de imagen de postres */
+        margin-left:57vw;       /* Nueva posición horizontal */
+        margin-top:34vh;        /* Nueva posición vertical */
     }
 }
 
-@media(max-width:991px){
-    .principal{
-        margin-inline: 0vh;     /* Elimina margen horizontal */
-        width: 76vh;            /* Ancho más reducido */
-        height: 93vh;           /* Altura ajustada */
-    }
-    
-    .imgarriba{
-        width: 76vh;            /* Ancho de imagen ajustado */
-    }
-    
-    .uno{
-        width: 76vh;            /* Ancho de sección superior */
-        height: 30vh;           /* Altura de sección superior */
-    }
-    
-    .logos{
-        margin-top: -30vh;      /* Posición vertical de logos */
-        margin-left: 7vh;       /* Nueva posición horizontal de logos */
-    }
-
-    .imgpro{
-        margin-left: 14vh;      /* Separación reducida del botón productos */
-    }
-
-    .imgperfil{
-        margin-left: 32vh;      /* Separación reducida del botón perfil */
-    }
-    
-    .imgnoso{
-        margin-left: 48vh;      /* Separación reducida del botón nosotros */
-    }
-    
-    .imglogo{
-        margin-left: 60vh;      /* Nueva posición del logo */
-    }
-    
-    .dos{
-        width: 76vh;            /* Ancho de sección de contenido */
-        height: 63vh;           /* Altura de sección de contenido */
-    }
-    
-    .caja{
-        width: 36vh;            /* Ancho del contenedor */
-        height: 63vh;           /* Altura del contenedor */
-    }
-    
-    .cajauno{
-        width: 76vh;            /* Ancho completo del sub-contenedor */
-        height: 45vh;           /* Altura del sub-contenedor */
-        margin-bottom: 8vh;     /* Margen inferior reducido */
-    }
-    
-    .imgdebajo{
-        width:74vh;             /* Ancho de imagen decorativa */
-        height: 45vh;           /* Altura de imagen decorativa */
-    }
-    
-    h1{
-        font-size: 4vh;         /* Tamaño de fuente del título */
-        width: 76vh;            /* Ancho del título */
-    }
-    
-    .eleden{
-        margin-left: 3vh;       /* Margen izquierdo del párrafo */
-        font-size: 1.5vh;       /* Tamaño de fuente del párrafo */
-        width: 70vh;            /* Ancho del párrafo */
-        height: 5vh;            /* Altura del párrafo */
-    }
-    
-    .boton{
-        width: 11vh;            /* Ancho del botón */
-        height: 5vh;            /* Altura del botón */
-        margin-left: 34vh;      /* Posición del botón */
-    }
-    
-    .boton p{
-        font-size: 2vh;         /* Tamaño de fuente del texto del botón */
-    }
-
-    .redes p{
-        font-size: 2vh;         /* Tamaño de fuente del texto de redes */
-    }
-
-    .imgpos{
-        width: 36vh;            /* Ancho de imagen de postres */
-        height: 21vh;           /* Altura de imagen de postres */
-        margin-left: 39vh;      /* Posición horizontal */
-        margin-top: 42vh;       /* Posición vertical */
-    }
-}
 
 @media(max-width:767px){
     .principal{
-        width: 55vh;            /* Ancho muy reducido para tablets pequeñas */
+        width:93vw;            /* Ancho muy reducido para tablets pequeñas */
     }
     
     .imgarriba{
-        width: 55vh;            /* Ancho de imagen para tablets pequeñas */
+        width: 93vw;            /* Ancho de imagen para tablets pequeñas */
+        height: 35vw;
     }
     
     .uno{
-        width: 55vh;            /* Ancho de sección superior */
+        width: 62vw;            /* Ancho de sección superior */
+        
+    }
+
+    .logos{
+        width: 3.5vw;             /* Ancho reducido del contenedor de logos */
+        margin-top: -34.5vh;      /* Ajuste de posición vertical */
+        margin-left: 1vw;       /* Posicionamiento desde la izquierda */
     }
 
     .imgpro{
-        margin-left: 7vh;       /* Separación muy reducida */
+        margin-left: 4rem;       /* Separación muy reducida */
     }
 
     .imgperfil{
-        margin-left: 18vh;      /* Separación muy reducida */
+        margin-left: 10rem;      /* Separación muy reducida */
     }
     
     .imgnoso{
-        margin-left: 27vh;      /* Separación muy reducida */
+        margin-left:15rem;      /* Separación muy reducida */
     }
     
     .imglogo{
-        margin-left: 35vh;      /* Posición del logo muy compacta */
+        margin-left: 23rem;      /* Posición del logo muy compacta */
     }
     
     .dos{
-        width: 55vh;            /* Ancho de sección de contenido */
+        width: 62vw;            /* Ancho de sección de contenido */
     }
     
     h1{
         font-size: 3vh;         /* Tamaño de fuente reducido del título */
-        width: 55vh;            /* Ancho del título */
+        width: 94vw;            /* Ancho del título */
     }
     
     .eleden{
-        width: 48vh;            /* Ancho reducido del párrafo */
-        height: 7vh;            /* Altura del párrafo */
+        width: 90vw;            /* Ancho reducido del párrafo */
+        height: 12vh;            /* Altura del párrafo */
     }
     
     .imgdebajo{
-        width: 53vh;            /* Ancho de imagen decorativa */
+        width: 90vw;            /* Ancho de imagen decorativa */
+        height: 48vh;
     }
     
-    .redes{
-        width: 28vh;            /* Ancho muy reducido de redes sociales */
-    }
+    
     
     .imgtwiter{
-        width: 3vh;             /* Iconos muy pequeños para Twitter */
-        height: 3vh;            /* Altura muy pequeña */
+        width: 2rem;             /* Iconos muy pequeños para Twitter */
+        height: 4vh;            /* Altura muy pequeña */
     }
     
     .imgface{
         position: absolute;     /* Posicionamiento absoluto */
-        margin-left: 6vh;       /* Separación muy compacta */
-        width: 3vh;             /* Ancho muy pequeño */
-        height: 3vh;            /* Altura muy pequeña */
+        margin-left: 3rem;       /* Separación muy compacta */
+        width: 2rem;             /* Ancho muy pequeño */
+        height: 4vh;            /* Altura muy pequeña */
     }
     
     .imgyou{
         position: absolute;     /* Posicionamiento absoluto */
-        margin-left: 12vh;      /* Separación muy compacta */
-        width: 3vh;             /* Ancho muy pequeño */
-        height: 3vh;            /* Altura muy pequeña */
+        margin-left: 6rem;      /* Separación muy compacta */
+        width: 2rem;             /* Ancho muy pequeño */
+        height: 4vh;            /* Altura muy pequeña */
     }
     
     .imgins{
         position: relative;     /* Posicionamiento relativo */
-        margin-left: 18vh;      /* Separación muy compacta */
-        width: 3vh;             /* Ancho muy pequeño */
-        height: 3vh;            /* Altura muy pequeña */
+        margin-left: 9rem;      /* Separación muy compacta */
+        width: 2rem;             /* Ancho muy pequeño */
+        height: 4vh;            /* Altura muy pequeña */
     }
     
     .imgpos{
-        width:30vh;             /* Ancho de imagen de postres reducido */
+        width:33vw;             /* Ancho de imagen de postres reducido */
         height: 20vh;           /* Altura de imagen de postres reducida */
-        margin-left: 25vh;      /* Posición horizontal centrada */
-        margin-top: 43vh;       /* Posición vertical */
+        margin-left: 60vw;      /* Posición horizontal centrada */
+        margin-top: 39vh;       /* Posición vertical */
     }
     
     .boton{
-        width: 8vh;             /* Ancho del botón reducido */
+        width: 3.5rem;             /* Ancho del botón reducido */
         height: 4vh;            /* Altura del botón reducida */
-        margin-left: 22vh;      /* Posición del botón */
+        margin-left: 40vw;      /* Posición del botón */
     }
     
     .boton p{
@@ -508,119 +418,97 @@ h1{
     }
 
     .redes p{
-        font-size: 1.5vh;       /* Tamaño de fuente del texto de redes */
-        width: 18vh;            /* Ancho muy reducido del texto */
+        font-size:2vh;       /* Tamaño de fuente del texto de redes */
+        width: 70vw;            /* Ancho muy reducido del texto */
     }
 }
 
-@media (max-width:575px){
+@media (max-width:480px){
     .principal{
-        width: 73vh;            /* Ancho para móviles */
+        width: 91vw;            /* Ancho para móviles */
         height: 140vh;          /* Altura aumentada para layout vertical */
     }
     
     .imgarriba{
-        width: 73vh;            /* Ancho de imagen para móviles */
+        width: 91vw;            /* Ancho de imagen para móviles */
         height: 45vh;           /* Altura de imagen aumentada */
     }
     
     .uno{
-        width: 73vh;            /* Ancho de sección superior */
-        height: 50vh;           /* Altura de sección superior aumentada */
+        width: 91vw;            /* Ancho de sección superior */
+        height: 45vh;           /* Altura de sección superior aumentada */
+    
     }
     
     .dos{
-        width: 75vh;            /* Ancho de sección de contenido */
+        width: 91vw;            /* Ancho de sección de contenido */
+        height: 90vh;
+        
     }
     
     .logos{
-        width:3vh;              /* Ancho mínimo del contenedor de logos */
+        width:6vw;              /* Ancho mínimo del contenedor de logos */
         margin-top: -44.5vh;    /* Posición vertical ajustada */
+        margin-left: 0.5rem;
     }
     
     .imgpro{
-        margin-left: 13vh;      /* Nueva separación */
-        width: 9vh;             /* Ancho aumentado para táctil */
+        margin-left: 4rem;      /* Nueva separación */
+        width: 4rem;             /* Ancho aumentado para táctil */
     }
 
     .imgperfil{
-        margin-left: 30vh;      /* Nueva separación */
-        width: 9vh;             /* Ancho aumentado para táctil */
+        margin-left: 9rem;      /* Nueva separación */
+        width: 4rem;             /* Ancho aumentado para táctil */
     }
     
     .imgnoso{
-        margin-left: 44vh;      /* Nueva separación */
-        width: 9vh;             /* Ancho aumentado para táctil */
+        margin-left: 13.5rem;      /* Nueva separación */
+        width: 4rem;             /* Ancho aumentado para táctil */
     }
     
     .imglogo{
-        margin-left: 53vh;      /* Nueva posición */
+        margin-left: 18rem;      /* Nueva posición */
         margin-top: 0.5vh;      /* Ajuste vertical */
     }
     
-    .dos{
-        width: 73vh;            /* Ancho de sección de contenido */
-        height: 90vh;           /* Altura muy grande para layout móvil */
-    }
+   
     
     .caja{
-        width: 38vh;            /* Ancho del contenedor */
+        width: 91vw;            /* Ancho del contenedor */
         height: 90vh;           /* Altura del contenedor */
     }
     
     .cajauno{
-        width: 73vh;            /* Ancho completo del sub-contenedor */
-        height: 45vh;           /* Altura del sub-contenedor */
-        margin-bottom: 36vh;    /* Margen inferior grande */
+        width: 91vw;            /* Ancho completo del sub-contenedor */
+        height: 80vh;           /* Altura del sub-contenedor */
+        margin-bottom: 0vh;    /* Margen inferior grande */
     }
     
     .imgdebajo{
-        width: 71vh;            /* Ancho de imagen decorativa */
+        width:87vw;            /* Ancho de imagen decorativa */
+        height: 65vh;
     }
     
     h1{
         font-size: 3.5vh;       /* Tamaño de fuente del título para móviles */
-        width: 71vh;            /* Ancho del título */
+        width: 90vw;            /* Ancho del título */
+        height: 10vh;
     }
     
     .eleden{
-        width: 65vh;            /* Ancho del párrafo */
-        height: 8vh;            /* Altura del párrafo aumentada */
+        width: 88vw;            /* Ancho del párrafo */
+        height: 17vh;            /* Altura del párrafo aumentada */
     }
     .redes{
-        width: 28vh;            /* Ancho de redes sociales */
+        width: 25vw;            /* Ancho de redes sociales */
     }
     
-    .imgtwiter{
-        width: 3vh;             /* Ancho del icono Twitter */
-        height: 3vh;            /* Altura del icono Twitter */
-    }
-    
-    .imgface{
-        position: absolute;     /* Posicionamiento absoluto */
-        margin-left: 6vh;       /* Separación del icono Facebook */
-        width: 3vh;             /* Ancho del icono Facebook */
-        height: 3vh;            /* Altura del icono Facebook */
-    }
-    
-    .imgyou{
-        position: absolute;     /* Posicionamiento absoluto */
-        margin-left: 12vh;      /* Separación del icono YouTube */
-        width: 3vh;             /* Ancho del icono YouTube */
-        height: 3vh;            /* Altura del icono YouTube */
-    }
-    
-    .imgins{
-        position: relative;     /* Posicionamiento relativo */
-        margin-left: 18vh;      /* Separación del icono Instagram */
-        width: 3vh;             /* Ancho del icono Instagram */
-        height: 3vh;            /* Altura del icono Instagram */
-    }
 
     .boton{
-        width: 8vh;             /* Ancho del botón */
+        width: 4.5rem;             /* Ancho del botón */
         height: 3vh;            /* Altura del botón */
-        margin-left: 31.5vh;    /* Posición centrada del botón */
+        margin-left: 35vw;    /* Posición centrada del botón */
     }
     
     .boton p{
@@ -628,14 +516,13 @@ h1{
     }
     
     .redes p{
-        font-size: 1.5vh;       /* Tamaño de fuente del texto de redes */
-        width: 34vh;            /* Ancho del texto de redes */
+        font-size: 2vh;       /* Tamaño de fuente del texto de redes */
+        width: 40vw;            /* Ancho del texto de redes */
     }
     
     .imgpos{
-        width:40vh;             /* Ancho de imagen de postres para móviles */
-        height: 45vh;           /* Altura de imagen de postres aumentada */
-        margin-left: 33vh;      /* Posición horizontal */
-        margin-top: 45vh;       /* Posición vertical */
-    }
-}
+        width:38vw;             /* Ancho de imagen de postres reducido */
+        height: 35vh;           /* Altura de imagen de postres reducida */
+        margin-left: 53vw;      /* Posición horizontal centrada */
+        margin-top: 60vh;       /* Posición vertical */
+    }}
