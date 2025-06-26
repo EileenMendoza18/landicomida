@@ -323,20 +323,19 @@ h1{
     
     .imgarriba{
         width: 93vw;            /* Ancho de imagen para tablets pequeñas */
-        height: 35vw;
+   
     }
     
     .uno{
-        width: 62vw;            /* Ancho de sección superior */
+        width: 93vw;            /* Ancho de sección superior */
         
     }
 
     .logos{
-        width: 3.5vw;             /* Ancho reducido del contenedor de logos */
-        margin-top: -34.5vh;      /* Ajuste de posición vertical */
+        width: 4vw;             /* Ancho reducido del contenedor de logos */
+        margin-top: -35vh;      /* Ajuste de posición vertical */
         margin-left: 1vw;       /* Posicionamiento desde la izquierda */
     }
-
     .imgpro{
         margin-left: 4rem;       /* Separación muy reducida */
     }
